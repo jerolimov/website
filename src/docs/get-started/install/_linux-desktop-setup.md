@@ -28,10 +28,16 @@ you need the following in addition to the Flutter SDK:
 * [Ninja build][]
 * [pkg-config][]
 
-Run the following command
+On a deb-based system (like Debian, Ubuntu) run the following commands:
 
 ```terminal
 $ sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev
+```
+
+On a rpm-based system (like Fedora, RHEL) run the following commands:
+
+```terminal
+$ sudo dnf install cmake clang ninja-build pkg-config gtk3-devel
 ```
 
 [Clang]: https://clang.llvm.org/
